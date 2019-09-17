@@ -1,6 +1,29 @@
 # dataviz-with-ggplot2
 For R User Group Malmö~Lund (SkåneR)
 
+## Why does data visualization matter?
+- For yourself (analysis): understand your data – see patterns, distribution, identify outliers 
+- For others (communication): explain your data, highlight what matters, make it memorable
+
+## What is good data viz?
+> ”Graphical excellence is the well-designed presentation of interesting data—a matter of substance, of statistics, and of design … [It] consists of complex ideas communicated with clarity, precision, and efficiency. … [It] is that which gives to the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space … [It] is nearly always multivariate … And graphical excellence requires telling the truth about the data.” (Tufte, 1983, p. 51).
+
+### Good data viz...
+- Highlights important aspects of your data
+	- Understand your data and know what you want to communicate
+- Is informative and easy to understand
+	- Know your audience and choose a type of data viz they will understand
+	- Don’t try to fit too much information into one viz
+	- Before adding flair, ask yourself if it helps explain the data or if you just think it’s cool
+- Represents the data without distorting it
+	- Always let facts ruin a good story
+
+### Bad data viz can be...
+- Misleading 
+- Ugly
+- Confusing
+- Pointless
+
 ## The anatomy of a ggplot2:
 ```r
 install.packages(ggplot2) # First time using the package: install
@@ -17,8 +40,38 @@ ggplot(data = <DATA>, mapping = aes(<MAPPINGS>)) +
 	...
 ```
 
-## Resources:
+### < DATA >
+- The data set you want to visualize!
+- Import your data or choose one from the data sets already available
+- data() shows you all available data sets from your loaded packages
+- R has a built in package called ´datasets´, ggplot2 also comes w/ data sets
+	
+### < GEOM_FUNCTION >
+- The <GEOM_FUNCTION> is basically the type of plot you want to use. So which one do we want?
+- Depends on the data and what we want to explore/show! What’s our question?
+	- Numeric? Categoric? Number of variables? Ordered/not ordered? Number of points?
+	- Map? Network? Time series?
+- dim(), str(), head(), summary() are good functions to explore your data set
 
+```r
+ggplot(data = diamonds) +
+	geom_point(mapping = aes(x = carat, y = price, color = cut))
+```
+### Picking a color palette
+- Consider:
+	- Readability: on screen, in print, for people with color blindness, in black and white (the viridis package does a good job of showing why this is important: https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html)
+	- Continuous or categorical data 
+
+### Other elements to play with
+- size
+- alpha		
+- shape
+- fill
+- theme  	
+- labs():	set title, subtitle, axis labels, legends…
+- facet_wrap:	create subplots – super useful! 
+
+## Resources:
 
 ### Free online books:
 - ggplot2: Elegant Graphics for Data Analysis – Hadley Wickham (https://ggplot2-book.org/)
@@ -70,3 +123,6 @@ https://github.com/rfordatascience/tidytuesday
 - Ask for help: we are here to learn from each other
 - Share it on twitter using #TidyTuesday if you want
 
+### Extra
+- Data import cheat sheet: https://www.rstudio.com/resources/cheatsheets/#import
+- Data transformation with dplyr cheat sheet: https://www.rstudio.com/resources/cheatsheets/#dplyr
