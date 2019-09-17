@@ -127,5 +127,6 @@ https://github.com/rfordatascience/tidytuesday
 - Share it on twitter using #TidyTuesday if you want
 
 ### Extra
+- TidyTuesday podcast: https://www.tidytuesday.com/
 - Data import cheat sheet: https://www.rstudio.com/resources/cheatsheets/#import
 - Data transformation with dplyr cheat sheet: https://www.rstudio.com/resources/cheatsheets/#dplyr
