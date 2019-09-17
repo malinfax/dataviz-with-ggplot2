@@ -120,6 +120,8 @@ https://github.com/rfordatascience/tidytuesday
 - Browse the collection of submissions at https://nsgrantham.shinyapps.io/tidytuesdayrocks/ **(look at both viz and code to understand the ggplot structure!)**
 - Find a data set that intrigues you
 - **Visualize it!** 
+	- Choose your own adventure: the good, the bad, or the ugly
+	- If you want to, you can copy existing code and play around with it
 - Ask for help: we are here to learn from each other
 - Share it on twitter using #TidyTuesday if you want
 
