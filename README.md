@@ -117,7 +117,7 @@ troduction – Kieran Healy (http://socviz.co/)
 ## #TidyTuesday
 - Browse the data sets posted at 
 https://github.com/rfordatascience/tidytuesday
-- Browse the collection of submissions at https://nsgrantham.shinyapps.io/tidytuesdayrocks/
+- Browse the collection of submissions at https://nsgrantham.shinyapps.io/tidytuesdayrocks/ (look at both viz and code!)
 - Find a data set that intrigues you
 - **Visualize it!** 
 - Ask for help: we are here to learn from each other
