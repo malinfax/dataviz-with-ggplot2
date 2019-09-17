@@ -91,6 +91,7 @@ troduction – Kieran Healy (http://socviz.co/)
 - Top 50 ggplot2 visualizations – The Master List (with Full R Code): http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html
 
 ### Color palettes:
+- What to consider when choosing colors for data visualization: https://blog.datawrapper.de/colors/
 - Your Friendly Guide to Colors in Data Visualization: https://blog.datawrapper.de/colorguide/
 - Comprehensive list of color palettes in R: https://github.com/EmilHvitfeldt/r-color-palettes
 - The viridis color palettes: https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html
