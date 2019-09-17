@@ -26,7 +26,7 @@ For R User Group Malmö~Lund (SkåneR)
 
 ## The anatomy of a ggplot2:
 ```r
-install.packages(ggplot2) # First time using the package: install
+install.packages("ggplot2") # First time using the package: install
 library(ggplot2) # Load the pkg
 
 ggplot(data = <DATA>) + 
