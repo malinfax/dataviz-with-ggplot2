@@ -45,13 +45,13 @@ ggplot(data = <DATA>, mapping = aes(<MAPPINGS>)) +
 - Import your data or choose one from the data sets already available
 - data() shows you all available data sets from your loaded packages
 - R has a built in package called ´datasets´, ggplot2 also comes w/ data sets
+- dim(), str(), head(), summary() are good functions to explore your data set
 	
 ### < GEOM_FUNCTION >
 - The <GEOM_FUNCTION> is basically the type of plot you want to use. So which one do we want?
 - Depends on the data and what we want to explore/show! What’s our question?
 	- Numeric? Categoric? Number of variables? Ordered/not ordered? Number of points?
 	- Map? Network? Time series?
-- dim(), str(), head(), summary() are good functions to explore your data set
 
 ```r
 ggplot(data = diamonds) +
